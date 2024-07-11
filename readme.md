@@ -66,6 +66,7 @@ public class Main {
 }
 ```
 - output
+  
   ![](assets/Pasted%20image%2020240711160150.png)
 -  Here we can see parent's class constructor's S.O.P, first and child class constructor's S.O.P. 2nd.
 
