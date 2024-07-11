@@ -5,6 +5,8 @@ public class TextBox extends UIControl {
     private String text = "";
 
     public TextBox() {
+        //must contain very first otherwise compile error.
+        super(false);
         System.out.println("TextBox");
     }
 
