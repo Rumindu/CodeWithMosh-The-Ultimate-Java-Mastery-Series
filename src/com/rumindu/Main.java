@@ -3,8 +3,8 @@ package com.rumindu;
 public class Main {
     public static void main(String[] args) {
         var box1= new TextBox();
-        var box2= box1;
+        var box2= new TextBox();
 
-        System.out.println(box1.equals(box2));//true
+        System.out.println(box1.equals(box2));//false
     }
 }
