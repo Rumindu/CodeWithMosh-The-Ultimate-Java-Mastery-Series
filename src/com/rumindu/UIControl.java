@@ -2,7 +2,9 @@
 package com.rumindu;
 
 public class UIControl{
-    protected boolean isEnabled = true;
+    //default access modifier.
+    //Don't provide any access modifier prefix
+    boolean isEnabled = true;
 
     public UIControl(boolean isEnabled) {
         this.isEnabled=isEnabled;

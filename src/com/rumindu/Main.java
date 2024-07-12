@@ -1,7 +1,5 @@
 //main.java
-package com.codewithrumindu;
-//If the class is from the different package, we need to import it
-import com.rumindu.UIControl;
+package com.rumindu;
 
 public class Main {
     public static void main(String[] args) {
