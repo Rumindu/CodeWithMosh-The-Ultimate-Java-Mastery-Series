@@ -1,6 +1,6 @@
 package com.rumindu;
-//TextBox.java
 //child class
+//TextBox.java
 public class TextBox extends UIControl {
     private String text = "";
 
@@ -8,6 +8,12 @@ public class TextBox extends UIControl {
         super(false);
         System.out.println("TextBox");
     }
+    //Overriding toString() methods that declared in Object class.
+    //Object class is great parent class of TextBox class
+//    @Override
+//    public String toString(){
+//    return text;
+//    }
 
     public void setText(String text) {
         this.text = text;

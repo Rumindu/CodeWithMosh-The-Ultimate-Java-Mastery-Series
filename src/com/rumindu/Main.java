@@ -3,7 +3,9 @@ package com.rumindu;
 public class Main {
     public static void main(String[] args) {
         var textBox=new TextBox();
-        //toString() method in default behaviour
-        System.out.println(textBox.toString());//com.rumindu.TextBox@eed1f14
+        //override toString() method
+        System.out.println(textBox);//TextBox
+        //no need to explicitly call toString()
+        //System.out.println(textBox.toString());
     }
 }
