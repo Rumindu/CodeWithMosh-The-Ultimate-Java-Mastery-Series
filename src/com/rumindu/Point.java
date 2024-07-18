@@ -9,13 +9,14 @@ public class Point {
         this.y = y;
     }
 
-    //couldn't change parameter type Object in to Point
-    //(Point obj) is ❌
-    //because it will change the method signature
     @Override
     public boolean equals(Object obj) {
-        //downcast Object to Point
-        var Other = (Point) obj;
-        return x == Other.x && y == Other.y;
+        //if the obj is equal to the current instance of the class
+        if(this == obj)
+            return true;
+        if(!(obj instanceof Point))
+            return false;
+        var other = (Point) obj;
+        return x == other.x && y == other.y;
     }
 }
