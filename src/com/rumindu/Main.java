@@ -1,7 +1,9 @@
 package com.rumindu;
-
+//Main.java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        Point point1 = new Point(1, 2);
+        Point point2 = new Point(1, 2);
+        System.out.println(point1.equals(point2));// false
     }
 }
