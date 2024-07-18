@@ -75,7 +75,7 @@
   ```
   ![](assets/Pasted%20image%2020240718133949.png)
   
-  - error is `Exception in thread "main" java.lang.ClassCastException: class com.rumindu.TextBox cannot be cast to class com.rumindu.Point (com.rumindu.TextBox and com.rumindu.Point are in unnamed module of loader 'app')`. [More explanation](46%20Upcasting%20and%20Downcasting%20Object##Problem%20of%20above%20implementation%20and%20solution.)
+  - error is `Exception in thread "main" java.lang.ClassCastException: class com.rumindu.TextBox cannot be cast to class com.rumindu.Point (com.rumindu.TextBox and com.rumindu.Point are in unnamed module of loader 'app')`. [More explanation](https://github.com/Rumindu/CodeWithMosh-The-Ultimate-Java-Mastery-Series/blob/object-upcasting-and-downcasting/readme.md#problem-of-above-implementation-and-solution)
 - modified override method
 ``` java 
 //Point.java
