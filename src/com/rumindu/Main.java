@@ -1,7 +1,11 @@
 package com.rumindu;
-
+//Main.java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        UIControl[] controls = {new TextBox(), new CheckBox()};
+
+        for (var control : controls) {
+            control.render();
+        }
     }
 }
